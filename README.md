@@ -4,7 +4,7 @@
 ## Concept
 <div align="center">
   <img src="./figures/inception_xception.png" width="600">  
-  <p> [1].</p>
+  <p>The Xception module comparing with the Inception module [1].</p>
 </div>
 
 ## Performance
