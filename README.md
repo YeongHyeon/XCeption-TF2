@@ -3,8 +3,14 @@
 
 ## Concept
 <div align="center">
-  <img src="./figures/inception_xception.png" width="600">  
+  <img src="./figures/inception_xception.png" width="500">  
   <p>The Xception module comparing with the Inception module [1].</p>
+</div>
+
+<div align="center">
+  <img src="./figures/inception.png" width="400">
+  <img src="./figures/xception.png" width="400">  
+  <p>Comparing the Inception and the Xception module via 3D view.</p>
 </div>
 
 ## Performance
