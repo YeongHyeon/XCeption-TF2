@@ -35,8 +35,8 @@ class CNN(object):
             self.optimizer.apply_gradients(zip(gradients, self.customlayers.params_trainable))
 
             with self.summary_writer.as_default():
-                tf.summary.scalar('ResNet/loss', loss, step=iteration)
-                tf.summary.scalar('ResNet/accuracy', accuracy, step=iteration)
+                tf.summary.scalar('XCeption/loss', loss, step=iteration)
+                tf.summary.scalar('XCeption/accuracy', accuracy, step=iteration)
 
         return loss, accuracy, score
 
