@@ -104,7 +104,7 @@ class CNN(object):
     def xception(self, input, ksize, inchannel, outchannel, name="", verbose=False):
 
         num_div = 6
-        midchannel = (inchannel + outchannel//num_div) // 2
+        midchannel = (inchannel + outchannel//num_div) // 2 * num_div
         convtmp_1 = self.customlayers.conv2d(input, \
             self.customlayers.get_weight(vshape=[1, 1, inchannel, midchannel], name="%s_1" %(name)), \
             stride_size=1, padding='SAME')
