@@ -1,5 +1,9 @@
 [TensorFlow 2] Xception: Deep Learning with Depthwise Separable Convolutions
 =====
+TensorFlow implementation of "Xception: Deep Learning with Depthwise Separable Convolutions"
+
+## Related Repositories
+<a href="https://github.com/YeongHyeon/Inception_Simplified-TF2">Inception_Simplified-TF2</a>  
 
 ## Concept
 <div align="center">
