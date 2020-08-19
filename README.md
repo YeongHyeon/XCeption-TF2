@@ -21,13 +21,35 @@ TensorFlow implementation of "Xception: Deep Learning with Depthwise Separable C
 
 |Indicator|Value|
 |:---|:---:|
-|Accuracy|0.-----|
-|Precision|0.-----|
-|Recall|0.-----|
-|F1-Score|0.-----|
+|Accuracy|0.99480|
+|Precision|0.99469|
+|Recall|0.99486|
+|F1-Score|0.99477|
 
 ```
 Confusion Matrix
+[[ 977    0    0    0    0    0    1    0    1    1]
+ [   1 1127    0    0    3    0    1    3    0    0]
+ [   1    0 1026    0    0    0    1    2    2    0]
+ [   0    0    2 1001    0    5    0    0    2    0]
+ [   0    0    0    0  979    0    0    0    1    2]
+ [   0    0    0    3    0  888    1    0    0    0]
+ [   2    0    0    0    0    1  955    0    0    0]
+ [   0    1    1    0    0    0    0 1024    1    1]
+ [   1    0    0    0    0    0    0    0  972    1]
+ [   0    0    0    0    6    2    0    1    1  999]]
+Class-0 | Precision: 0.99491, Recall: 0.99694, F1-Score: 0.99592
+Class-1 | Precision: 0.99911, Recall: 0.99295, F1-Score: 0.99602
+Class-2 | Precision: 0.99708, Recall: 0.99419, F1-Score: 0.99563
+Class-3 | Precision: 0.99701, Recall: 0.99109, F1-Score: 0.99404
+Class-4 | Precision: 0.99089, Recall: 0.99695, F1-Score: 0.99391
+Class-5 | Precision: 0.99107, Recall: 0.99552, F1-Score: 0.99329
+Class-6 | Precision: 0.99583, Recall: 0.99687, F1-Score: 0.99635
+Class-7 | Precision: 0.99417, Recall: 0.99611, F1-Score: 0.99514
+Class-8 | Precision: 0.99184, Recall: 0.99795, F1-Score: 0.99488
+Class-9 | Precision: 0.99502, Recall: 0.99009, F1-Score: 0.99255
+
+Total | Accuracy: 0.99480, Precision: 0.99469, Recall: 0.99486, F1-Score: 0.99477
 ```
 
 ## Requirements
